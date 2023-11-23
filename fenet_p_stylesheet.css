@@ -21,6 +21,10 @@ h2 {
   color: rgb(243, 245, 248);
   font-size: 50px;
 }
+h5 {
+  color: rgb(243, 245, 248);
+  font-size: 50px;
+}
 body {
   background-color: #000000fd;
 }
@@ -28,7 +32,7 @@ body {
 .container {
   padding: 10px 0%;
   @media only screen and (min-width: 600px) {
-    padding: 10px 10%;
+    padding: 5px 5%;
   }
 }
 
@@ -84,12 +88,13 @@ a:hover {
   align-items: center;
   gap: 2em;
   min-height: 80%;
-  background-image: url("assets/minimal.png"); 
+  /*background-image: url("assets/nn.png"); */
 
   @media only screen and (min-width: 600px) {
     flex-direction: row;
   }
 }
+
 
 #about {
   margin: 3em 0;
@@ -241,56 +246,6 @@ a:hover {
     background-color: rgba(0, 0, 0, 0.5);
   }
 }
-/*
-	.image_p{
-		width: 300px;
-		height: 200px;
-	}
-	.project_text{
-		position: absolute;
-		left: 800px;
-		top: 3000px;
-	}
-	.image_p1{
-		width: 300px;
-		height: 200px;
-	}
-	.imgpro2{
-		float: right;
-	}
-	.image_p2{
-		width: 300px;
-		height: 200px;
-	}
-	.project_text1{
-		position: absolute;
-		left: 0px;
-		top: 3100px;
-	}
-	.image_p3{
-		width: 300px;
-		height: 200px;
-	}
-	.image_p4{
-		width: 300px;
-		height: 200px;
-	}
-	.image_p5{
-		width: 300px;
-		height: 200px;
-	}
-	.image_p6{
-		width: 300px;
-		height: 200px;
-	}
-	.image_p7{
-		width: 300px;
-		height: 200px;
-	}
-	.image_p8{
-		width: 300px;
-		height: 200px;
-	} */
 
 #contact {
   margin: 3em 0;
