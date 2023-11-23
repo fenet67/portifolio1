@@ -250,15 +250,16 @@ a:hover {
 #contact {
   margin: 3em 0;
   .contact_title {
-    text-align: center;
+    text-align: left;
   }
   .contact_text {
     font-size: 2em;
+    
   }
   .contact_content {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: right;
     gap: 5em;
   }
   .contact_title {
@@ -278,4 +279,65 @@ a:hover {
   .linkedIn_icon {
     width: 30px;
   }
+}
+
+/* Footer Styles */
+
+footer {
+  background-color:black;
+  padding: 20px;
+  text-align: center;
+}
+
+.contact-section {
+  margin-bottom: 20px;
+}
+
+.contact-section h3 {
+  color: #ece6e6;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  display:block;
+  color: #efecec;
+  margin-bottom: 5px;
+}
+
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 60px;
+}
+
+button[type="submit"] {
+  background-color:rgb(0, 0, 0);
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+
+button[type="submit"]:hover {
+  background-color: #ffffff;
 }
