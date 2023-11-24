@@ -112,11 +112,9 @@ a:hover {
     margin-bottom: 1em;
   }
 
+  
   .about_image {
-    width: 400px;
-    height: auto;
-  }
-  .about_image {
+    
     max-width: 80%;
     height: auto;
   }
