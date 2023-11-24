@@ -155,8 +155,6 @@ a:hover {
     flex-direction: column;
   }
 
-  .skill-info {
-  }
 
   .skill-name {
     font-weight: bold;
@@ -250,10 +248,10 @@ a:hover {
 #contact {
   margin: 3em 0;
   display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
-  gap: 3em;
+  gap: 5em 3em;
 
   .contact_title {
     text-align: left;
@@ -264,9 +262,8 @@ a:hover {
   }
   .contact_content {
     display: flex;
-    justify-content: left;
-    align-items: right;
-    gap: 5em;
+    flex-direction: column;
+    gap: 1em;
   }
   .contact_title {
     margin: 1em 0;
