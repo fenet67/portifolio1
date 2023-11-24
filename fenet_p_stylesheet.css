@@ -116,7 +116,15 @@ a:hover {
     width: 400px;
     height: auto;
   }
-
+  .about_image {
+    max-width: 80%;
+    height: auto;
+  }
+  @media (max-width: 600px) {
+    .about_image {
+      max-width: 60%;
+    }
+  }
   .about_content {
     display: flex;
     flex-direction: column;
